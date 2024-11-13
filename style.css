@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* nav-bar section */
+
+nav {
+  width: 100vws;
+  height: 6vh;
+  background-color: black;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav p {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: rgb(47, 118, 252);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+}
+
+nav input {
+  width: 60%;
+  height: 1.6rem;
+  border: none;
+  outline: none;
+  padding: 8px 8px 8px 40px;
+  background-image: url(images/search-icon.svg);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 10px;
+  color: black;
+}
+
+nav input:hover::placeholder {
+  color: black;
+}
+
+nav button {
+  background-color: rgb(70, 70, 70);
+  width: 4rem;
+  height: 1.6rem;
+  outline: none;
+  border: 1px solid rgb(92, 91, 91);
+}
+
+nav button:hover {
+  background-color: rgb(43, 43, 43);
+  color: rgb(206, 206, 206);
+  border: none;
+}
+
+nav img {
+  width: 0.6rem;
+  height: 1.2rem;
+}
+
+/* photo area */
+
+main {
+  width: 100vws;
+  height: 88vh;
+  background-color: rgba(0, 0, 0, 0.856);
+  overflow: scroll;
+}
+
+main .content {
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content img {
+  width: 250px;
+}
+
+.img-con img:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.img-con1 img:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.img-con2 img:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.date h2 {
+  margin: 1rem;
+}
+
+.img-con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+}
+
+.img-con1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+}
+
+.img-con2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+}
+
+.bottom-nav {
+  width: 100vw;
+  height: 6vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom-nav a {
+  color: #fff7d0;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 500px) {
+  .content img {
+    width: 48%;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.previous {
+  background-color: #111;
+  color: white;
+}
+
+#previous {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#previous:hover {
+  background-color: white;
+  color: black;
+}
+
+.next {
+  background-color: #111;
+  color: white;
+}
+
+#next {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#next:hover {
+  background-color: white;
+  color: black;
+}
+
+.round {
+  border-radius: 25px;
+  border: 5px solid white;
+}
+
+.previous1 {
+  background-color: #111;
+  color: white;
+}
+
+#previous1 {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#previous1:hover {
+  background-color: white;
+  color: black;
+}
+
+.next1 {
+  background-color: #111;
+  color: white;
+}
+
+#next1 {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#next1:hover {
+  background-color: white;
+  color: black;
+}
+
+.round1 {
+  border-radius: 25px;
+  border: 5px solid white;
+}
+
+.previous2 {
+  background-color: #111;
+  color: white;
+}
+
+#previous2 {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#previous2:hover {
+  background-color: white;
+  color: black;
+}
+
+.next2 {
+  background-color: #111;
+  color: white;
+}
+
+#next2 {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#next2:hover {
+  background-color: white;
+  color: black;
+}
+
+.round2 {
+  border-radius: 25px;
+  border: 5px solid white;
+}
+
+.previous3 {
+  background-color: #111;
+  color: white;
+}
+
+#previous3 {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#previous3:hover {
+  background-color: white;
+  color: black;
+}
+
+.next3 {
+  background-color: #111;
+  color: white;
+}
+
+#next3 {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#next3:hover {
+  background-color: white;
+  color: black;
+}
+
+.round3 {
+  border-radius: 25px;
+  border: 5px solid white;
+}
+
+#arrowbuttons {
+  gap: 5px;
+}
+
+#arrowbuttons1 {
+  gap: 5px;
+}
+
+#arrowbuttons2 {
+  gap: 5px;
+}
+
+#arrowbuttons3 {
+  gap: 5px;
+}
+
+#PaldeaEvolved {
+  background: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+#CrownZenith {
+  background: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+#ParadoxRift {
+  background: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+#SetHome {
+  width: 100px;
+  cursor: pointer;
+}
+
+#homelogos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+}
