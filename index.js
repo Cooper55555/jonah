@@ -69,11 +69,32 @@ function ParadoxRift() {
     document.getElementById("card5").style.display = "none";
     document.getElementById("card6").style.display = "none";
     document.getElementById("card7").style.display = "block";
+    document.getElementById("card8").style.display = "block";
+    document.getElementById("card9").style.display = "block";
+    document.getElementById("card10").style.display = "block";
+    document.getElementById("card11").style.display = "none";
+    document.getElementById("card12").style.display = "none";
+    document.getElementById("arrowbuttons").style.display = "none";
+    document.getElementById("arrowbuttons1").style.display = "none";
+    document.getElementById("arrowbuttons2").style.display = "none";
+    document.getElementById("arrowbuttons3").style.display = "none";
+    document.getElementById("ChaseCards").style.display = "block";
+    document.getElementById("homelogos").style.display = "none";
+}
+
+function StellarCrown() {
+    document.getElementById("card1").style.display = "none";
+    document.getElementById("card2").style.display = "none";
+    document.getElementById("card3").style.display = "none";
+    document.getElementById("card4").style.display = "none";
+    document.getElementById("card5").style.display = "none";
+    document.getElementById("card6").style.display = "none";
+    document.getElementById("card7").style.display = "none";
     document.getElementById("card8").style.display = "none";
     document.getElementById("card9").style.display = "none";
     document.getElementById("card10").style.display = "none";
-    document.getElementById("card11").style.display = "none";
-    document.getElementById("card12").style.display = "none";
+    document.getElementById("card11").style.display = "block";
+    document.getElementById("card12").style.display = "block";
     document.getElementById("arrowbuttons").style.display = "none";
     document.getElementById("arrowbuttons1").style.display = "none";
     document.getElementById("arrowbuttons2").style.display = "none";

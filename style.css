@@ -109,6 +109,12 @@ main .content {
   transition: 0.3s;
 }
 
+.img-con3 img:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 .date h2 {
   margin: 1rem;
 }
@@ -128,6 +134,13 @@ main .content {
 }
 
 .img-con2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+}
+
+.img-con3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -328,19 +341,25 @@ main .content {
 #PaldeaEvolved {
   background: none;
   cursor: pointer;
-  width: 30%;
+  width: 25%;
 }
 
 #CrownZenith {
   background: none;
   cursor: pointer;
-  width: 30%;
+  width: 25%;
 }
 
 #ParadoxRift {
   background: none;
   cursor: pointer;
-  width: 30%;
+  width: 25%;
+}
+
+#StellarCrown {
+  background: none;
+  cursor: pointer;
+  width: 25%;
 }
 
 #SetHome {
